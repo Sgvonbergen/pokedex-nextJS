@@ -1,9 +1,11 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import PokeCard from '../components/pokeCard'
+import { type } from 'os';
 
-const Home: NextPage = () => {
+
+const Home: NextPage = (pageProps) => {
   return (
     <div className={styles.container}>
       <Head>
@@ -13,6 +15,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
+        <PokeCard name='Charmander' number='0004' type1='Fire' type2='Grass' image='/pokemon/charmander.png'/>
         <h1 className={styles.title}>
           Welcome to the Pokedex Databse!
         </h1>
@@ -24,7 +27,7 @@ const Home: NextPage = () => {
 
         <div className={styles.grid}>
           <a className={styles.card}>
-            <h2>Bulbasaur &rarr;</h2>
+            <h2>Bulbasaur</h2>
             <p>#1</p>
           </a>
 

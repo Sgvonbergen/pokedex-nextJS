@@ -14,3 +14,41 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.PokemonImage {
+  background-color: rgb(233, 233, 233);
+  object-fit: contain;
+}
+
+div.Types {
+  width: 150px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.Fire {
+  width: 70px;
+  border-radius: 5px;
+  vertical-align: middle;
+  background: rgb(226, 72, 72);
+}
+
+p.Fire {
+  text-align: center;
+  line-height: 0px;
+  color: white;
+}
+
+div.Grass {
+  width: 70px;
+  border-radius: 5px;
+  vertical-align: text-top;
+  background: rgb(89, 177, 93);
+}
+
+p.Grass {
+  line-height: 0px;
+  text-align: center;
+  color: black;
+}
