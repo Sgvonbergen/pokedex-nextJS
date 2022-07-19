@@ -52,7 +52,9 @@ const Home: NextPage = (pageProps) => {
         <h1 className={styles.title}>
           Welcome to the Pokedex Database!
         </h1>
-        <Pagination count={pages} defaultPage={1} onChange={onPageChange}/>
+        {/* Uncomment the next line once all pokemon images are available */}
+        {/* <Pagination count={pages} defaultPage={1} onChange={onPageChange}/> */}
+        <Pagination count={18} defaultPage={1} onChange={onPageChange}/>
         <PokeGrid data={pokeData.slice((currPage - 1) * 16, currPage * 16)}/>
 
       </main>
