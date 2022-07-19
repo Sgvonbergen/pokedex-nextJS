@@ -36,7 +36,7 @@ const Home: NextPage = (pageProps) => {
       number: String(poke.id).padStart(3, '0'),
       type1: poke.typeList[0],
       type2: poke.typeList[1],
-      image: '/pokemon/' + poke.name + '.png'
+      image: '/pokemon/' + poke.name.toLowerCase() + '.png'
     })
   })
 

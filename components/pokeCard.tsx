@@ -40,6 +40,7 @@ const PokeCard = (data: cardpropstype) => {
             <CardMedia
                 component='img'
                 height='150'
+                width='auto'
                 image={data.image}
                 alt={data.name}
                 className='PokemonImage'
@@ -54,12 +55,12 @@ const PokeCard = (data: cardpropstype) => {
                 <div className='Types'>
                     {types.map((t) => (
                             data.type1 == t ?
-                            <div className={data.type1}><p className={data.type1}>{data.type1}</p></div>:
+                            <div key="1" className={data.type1}><p className={data.type1}>{data.type1}</p></div>:
                             null
                         ))}
                     {types.map((t) => (
                             data.type2 == t ?
-                            <div className={data.type2}><p className={data.type2}>{data.type2}</p></div>:
+                            <div key="2" className={data.type2}><p className={data.type2}>{data.type2}</p></div>:
                             null
                         ))}
                 </div>
