@@ -12,36 +12,36 @@ type cardpropstype = {
     image: string
 };
 
-const PokeCard = (data: cardpropstype) => {
-    const types: Array<string> = [
-        'Fire',
-        'Grass',
-        'Water',
-        'Poison',
-        'Flying',
-        'Bug',
-        'Normal',
-        'Electric',
-        'Ground',
-        'Fairy',
-        'Fighting',
-        'Psychic',
-        'Rock',
-        'Steel',
-        'Dark',
-        'Dragon',
-        'Ghost',
-        'Ice'
-    ]
+const types: Array<string> = [
+    'Fire',
+    'Grass',
+    'Water',
+    'Poison',
+    'Flying',
+    'Bug',
+    'Normal',
+    'Electric',
+    'Ground',
+    'Fairy',
+    'Fighting',
+    'Psychic',
+    'Rock',
+    'Steel',
+    'Dark',
+    'Dragon',
+    'Ghost',
+    'Ice'
+]
 
+const PokeCard = (data: cardpropstype) => {
     return (
-        <Card sx={{ minWidth: 275}}>
+        <Card sx={{ minWidth: 120, maxWidth: 220}}>
             {/* # Pokemon Image */}
             <CardMedia
                 component='img'
                 height='150'
                 image={data.image}
-                alt='test image'
+                alt={data.name}
                 className='PokemonImage'
             />
 

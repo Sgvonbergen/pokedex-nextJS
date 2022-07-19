@@ -22,7 +22,7 @@ a {
 
 div.Types {
   width: 150px;
-  height: 30px;
+  height: 28px;
   display: flex;
   justify-content: space-between;
 }
@@ -44,11 +44,219 @@ div.Grass {
   width: 70px;
   border-radius: 5px;
   vertical-align: text-top;
-  background: rgb(89, 177, 93);
+  background: rgb(73, 208, 80);
 }
 
 p.Grass {
   line-height: 0px;
   text-align: center;
   color: black;
+}
+
+div.Flying {
+  width: 70px;
+  border-radius: 5px;
+  vertical-align: text-top;
+  background: rgb(126, 157, 180);
+}
+
+p.Flying {
+  line-height: 0px;
+  text-align: center;
+  color: white;
+}
+
+div.Bug {
+  width: 70px;
+  border-radius: 5px;
+  vertical-align: text-top;
+  background: rgb(148, 187, 126);
+}
+
+p.Bug {
+  line-height: 0px;
+  text-align: center;
+  color: black;
+}
+
+div.Dark {
+  width: 70px;
+  border-radius: 5px;
+  vertical-align: text-top;
+  background: rgb(32, 28, 28);
+}
+
+p.Dark {
+  line-height: 0px;
+  text-align: center;
+  color: white;
+}
+
+div.Dragon {
+  width: 70px;
+  border-radius: 5px;
+  vertical-align: text-top;
+  background: rgb(128, 135, 73);
+}
+
+p.Dragon {
+  line-height: 0px;
+  text-align: center;
+  color: white;
+}
+
+div.Normal {
+  width: 70px;
+  border-radius: 5px;
+  vertical-align: text-top;
+  background: rgb(98, 98, 98);
+}
+
+p.Normal {
+  line-height: 0px;
+  text-align: center;
+  color: white;
+}
+
+div.Water {
+  width: 70px;
+  border-radius: 5px;
+  vertical-align: text-top;
+  background: rgb(73, 51, 203);
+}
+
+p.Water {
+  line-height: 0px;
+  text-align: center;
+  color: white;
+}
+
+div.Electric {
+  width: 70px;
+  border-radius: 5px;
+  vertical-align: text-top;
+  background: rgb(251, 255, 0);
+}
+
+p.Electric {
+  line-height: 0px;
+  text-align: center;
+  color: black;
+}
+
+div.Ice {
+  width: 70px;
+  border-radius: 5px;
+  vertical-align: text-top;
+  background: rgb(91, 255, 236);
+}
+
+p.Ice {
+  line-height: 0px;
+  text-align: center;
+  color: black;
+}
+
+div.Fighting {
+  width: 70px;
+  border-radius: 5px;
+  vertical-align: text-top;
+  background: rgb(255, 168, 36);
+}
+
+p.Fighting {
+  line-height: 0px;
+  text-align: center;
+  color: white;
+}
+
+div.Poison {
+  width: 70px;
+  border-radius: 5px;
+  vertical-align: text-top;
+  background: rgb(84, 4, 154);
+}
+
+p.Poison {
+  line-height: 0px;
+  text-align: center;
+  color: white;
+}
+
+div.Ground {
+  width: 70px;
+  border-radius: 5px;
+  vertical-align: text-top;
+  background: rgb(115, 90, 53);
+}
+
+p.Ground {
+  line-height: 0px;
+  text-align: center;
+  color: white;
+}
+
+div.Psychic {
+  width: 70px;
+  border-radius: 5px;
+  vertical-align: text-top;
+  background: rgb(218, 26, 218);
+}
+
+p.Psychic {
+  line-height: 0px;
+  text-align: center;
+  color: white;
+}
+
+div.Rock {
+  width: 70px;
+  border-radius: 5px;
+  vertical-align: text-top;
+  background: rgb(65, 57, 57);
+}
+
+p.Rock {
+  line-height: 0px;
+  text-align: center;
+  color: white;
+}
+
+div.Ghost {
+  width: 70px;
+  border-radius: 5px;
+  vertical-align: text-top;
+  background: rgb(85, 13, 99);
+}
+
+p.Ghost {
+  line-height: 0px;
+  text-align: center;
+  color: white;
+}
+
+div.Steel {
+  width: 70px;
+  border-radius: 5px;
+  vertical-align: text-top;
+  background: rgb(199, 199, 199);
+}
+
+p.Steel {
+  line-height: 0px;
+  text-align: center;
+  color: black
+}
+
+div.Fairy {
+  width: 70px;
+  border-radius: 5px;
+  vertical-align: text-top;
+  background: rgb(255, 130, 224);
+}
+
+p.Fairy {
+  line-height: 0px;
+  text-align: center;
+  color: white;
 }
